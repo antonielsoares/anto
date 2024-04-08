@@ -17,7 +17,7 @@ body{
     font-size: 85px;
     margin-left: 105px;
 }
-@media screen and (max-width: 323px) {
+@media screen and (max-width: 445px) {
     .bg{ display: flex; }
     .bg_txt {
         font-size: 65px;
