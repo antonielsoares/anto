@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: rgb(216, 215, 215);
 }
 .bg{
     width: 100%;
@@ -24,4 +25,17 @@ body{
         margin: auto;
         text-align: center;
     }   
+}
+.corpo {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+}
+.corpo_img{
+    margin: auto;
+    width: 174px;
+    height: 174px;
+    border-radius: 144px;
+    border: 6px solid rgb(158, 156, 156);
+
 }
