@@ -10,7 +10,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
+    display: inline-block;
 }
 .bg_txt{
     color: white;
@@ -18,13 +18,31 @@ body{
     font-size: 85px;
     margin-left: 105px;
 }
+.bg_txt_02{
+    color: #3FF80C;
+    font-size: 55px;
+    margin-left: 105px;
+    margin-top: -65px;
+}
+@media screen and (max-width: 980px){
+    .bg_txt_02 { font-size: 35px; }
+}
 @media screen and (max-width: 445px) {
-    .bg{ display: flex; }
+    .bg { 
+        width: auto;
+        padding: 50px 0;
+    }
     .bg_txt {
         font-size: 65px;
-        margin: auto;
+        margin: 0;
+        margin-bottom: 59px;
         text-align: center;
     }   
+    .bg_txt_02 { 
+        margin: 0;
+        text-align: center;
+        width: 100%; 
+    }
 }
 .corpo {
     width: 100%;
