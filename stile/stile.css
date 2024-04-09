@@ -32,6 +32,7 @@ body{
     display: flex;
 }
 .corpo_img{
+    cursor: pointer;
     margin: auto;
     width: 174px;
     height: 174px;
