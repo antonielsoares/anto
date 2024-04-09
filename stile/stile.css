@@ -31,9 +31,11 @@ body{
     margin-top: 20px;
     display: flex;
 }
+.pointer {
+    margin: 0 auto;
+}
 .corpo_img{
     cursor: pointer;
-    margin: auto;
     width: 174px;
     height: 174px;
     border-radius: 144px;
